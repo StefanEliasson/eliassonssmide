@@ -11,4 +11,4 @@
 
 [context.production]
   [context.production.basic_auth]
-    "/disgen/*" = "stefan:eliasson"
+    "/disgen/*" = "stefan:eliasson1964"
