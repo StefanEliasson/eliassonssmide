@@ -1,5 +1,5 @@
 [[headers]]
-  for = "/disgen/*"
+  for = "/disgen/**"
   [headers.values]
     WWW-Authenticate = "Basic realm=\"Privat släktforskning\""
     Basic-Auth = "stefan:eliasson1964"
