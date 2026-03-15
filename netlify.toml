@@ -1,7 +1,7 @@
 [[redirects]]
   from = "/disgen/*"
-  to = "/"
-  status = 401
+  to = "/disgen/:splat"
+  status = 200
   force = true
 
 [[headers]]
