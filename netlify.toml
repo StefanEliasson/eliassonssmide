@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/disgen/*"
+  to = "/"
+  status = 401
+  force = true
+
+[[headers]]
+  for = "/disgen/*"
+  [headers.values]
+    WWW-Authenticate = "Basic realm=\"Privat släktforskning\""
+
+[context.production]
+  [context.production.basic_auth]
+    "/disgen/*" = "stefan:eliasson"

@@ -1,0 +1,772 @@
+/* CSS file print.css for DISGEN 11, issuedate=250307 */
+
+
+@page {
+	width: 210mm;
+	height:297mm;
+}
+
+body, body.index, body.register  {
+	margin-left: 50px;
+	font-variant: normal;
+	font-style: normal;
+	font-family: DINRoundWebPro-Light,Verdana,Geneva,sans-serif;
+	background-color: #f5f7fb;
+}
+
+body.ortsbeskrivning {
+	width: 96%;
+	max-height: 100%;
+	margin-left: 50px;
+}
+
+li.fotnot, ol.fotnot, li.kella, ol.kella {
+	font-size: 85%;
+	font-weight: normal;
+	text-align: left;
+}
+
+span.kella {
+	font-size: 85%;
+	font-weight: normal;
+}
+
+.kellref {
+	font-size: 0.83em;
+	vertical-align: baseline;
+}
+
+a.kellref::before {
+	content: "[";
+}
+
+a.kellref::after {
+	content: "]";
+}
+
+.fotnotnr {
+	font-size: 0.83em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+.fotnotnrhelp {
+	font-size: 0.83em;
+	vertical-align: super;
+	line-height: 0;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+p.about {
+	margin: 15px 0 15px 25px;
+	line-height: 1.5;
+}
+
+.sidfot {
+	font-family: DINRoundWebPro-Light,Verdana,Geneva,sans-serif;
+	text-align: center;
+	font-size: 80%;
+	font-style: italic;
+}
+
+.ortportrettext {
+	text-align: center;
+	font-size: 90%;
+	font-style: italic;
+	margin: 0 auto 1em auto;
+}
+
+td.bildtext {
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	width: inherit;
+	border: none;
+}
+
+Table, TH, TD, TR {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.tablestam {
+	width: 98%;
+	border: 1px solid black;
+	border-top: none;
+	border-collapse: collapse;
+ 	text-align: left;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.tablestam0 {
+	width: 98%;
+	border: 1px solid black;
+				  
+	border-collapse: collapse;
+ 	text-align: left;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.tablestam1 {
+	width: 3%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-top: none;
+	text-align: center;
+	font-weight: Bold;
+	background-color: #fff;
+}
+
+.tablestam2 {
+	width: auto;
+	border: 1px solid black;
+	border-top: none;
+	border-collapse: collapse;
+ 	text-align: left;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.tablestam_forts {
+	display: none;
+	width: 3%;
+	border: none;
+	background-color: #fff;
+}
+
+.maintable {
+	width: 96%;
+	background-color: #fff;
+}
+
+.table4gen {
+	width: 22%;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.table4sgen {
+	width: 19%;
+	text-align: left;
+	padding: 10px;
+	font-size: 85%;
+	background-color: #fff;
+}
+
+.table3gen {
+	text-align: left;
+	width: 25%;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.table3sgen {
+	text-align: left;
+	width: 25%;
+	padding: 10px;
+	font-size: 90%;
+	background-color: #fff;
+}
+
+.table2gen {
+	width: 33%;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.table2sgen {
+	width: 33%;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+	background-color: #fff;
+}
+
+.table1gen {
+	width: 50%;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.antavleheading4gen {
+	width: 21%;
+	background-color: #fff;
+}
+
+.antavleheading4sgen {
+	width: 18%;
+	background-color: #fff;
+}
+ 
+.antavleheading3gen {
+	width: 25%;
+	background-color: #fff;
+}
+
+.antavleheading3sgen {
+	width: 25%;
+	background-color: #fff;
+}
+ 
+.antavleheading2gen {
+	width: 33%;
+	background-color: #fff;
+}
+
+.antavleheading2sgen {
+	width: 33%;
+	background-color: #fff;
+}
+
+.antavletable4gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.antavletable4sgen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+	background-color: #fff;
+}
+
+.antavletable3gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.antavletable3sgen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+	background-color: #fff;
+}
+
+.antavletable2gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+.antavletable1gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #fff;
+}
+ 	
+.utanram {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 96%;
+	border: none;
+	text-align: left;
+}
+
+.bildutanram {
+	margin-left: auto; 
+	margin-right: auto;
+	border: none;
+}
+
+.GiftTBL {
+	border: none;
+	border-collapse: collapse;
+	text-align: left;
+	width: 96%;
+}
+
+.GiftTD ,.GiftTR {
+	border: none;
+	text-align: left;
+}
+
+.Giftportrett {
+	margin-left: auto; 
+	margin-right: auto;
+	border: none;
+}
+
+H1 {
+	font-family: DINRoundWebPro-Light,Verdana,Geneva,sans-serif;
+	color: black;
+	font-size: 25px;
+	margin: 20px 0 10px;
+	text-align: center;
+}
+
+H1.relative {
+	position: relative;
+	margin: -5em 0 5em 0;
+	color: white;
+}
+
+H2 {
+	font-family: DINRoundWebPro-Light,Verdana,Geneva,sans-serif;
+	color: black;
+	font-size: 20px;
+	margin: 20px 0 10px;
+	text-align: center;
+}
+
+H3 {
+	font-size: 120%;
+	font-weight: Bold;
+	color: black;
+	text-align: left;
+	margin: 10px 0 10px 0;
+	width: 100%;
+}
+
+H3.Cent {
+	font-size: 120%;
+	font-weight: Normal;
+	color: black;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+H5 {
+	padding : 1em 0 0 0;
+	font-size: 1em;
+	margin: 1em 0 0 0;
+}
+
+H5.kella, H5.fotnot {
+	border-top: 1px solid #305059;
+	padding : 1em 0 0 0;
+	font-size: 1em;
+}
+
+A:link {color: black; text-decoration: none; font-weight: bold;} 
+
+.efternamn A:link {color: black; text-decoration: none;} 
+
+.small A:link {color: black; text-decoration: none; font-weight: bold;} 
+
+.tilltal {
+	font-weight: Bold;	
+}
+
+.ejtilltal {
+	font-weight: Normal;
+}
+
+.efternamn {
+	font-weight: Bold;
+}
+
+.efternamnindr {
+	font-weight: Bold;
+	margin-left: 20px;
+}
+
+.H1normal {
+	font-weight: normal;
+}
+
+H2.ort {
+	font-size: 1.1em;
+	font-weight: Bold;
+	text-align: left;
+	margin: 15px 0 5px 0;
+}
+
+.barn {
+	margin: 15px 0 15px 4%;
+	padding-left: 4%;
+	font-weight: normal;
+}
+
+.ffmm {
+	text-transform: lowercase;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.kortrelation {
+	text-transform: uppercase;
+}
+
+img.startbild {
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 90%;
+	max-width: 70%;
+	page-break-inside: avoid;
+}
+
+img.portrett {
+	border: none;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_1gen_S {
+	border: none;
+	display: block;
+	max-width: 30%;
+	margin: 0 auto 1em auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_2gen_S {
+	border: none;
+	display: block;
+	max-width: 40%;
+	margin: 0 auto 1em auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_3gen_S {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin: 0 auto 1em auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_4gen_S {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin: 0 auto 1em auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_1gen_M {
+	border: none;
+	display: block;
+	max-width: 40%;
+	margin: 0 auto 1em auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_2gen_M {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin: 0 auto 1em auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_3gen_M {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin: 0 auto 1em auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_4gen_M {
+	border: none;
+	display: block;
+	max-width: 70%;
+	margin: 0 auto 1em auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_1gen_L {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin: 0 auto 1em auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_2gen_L {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin: 0 auto 1em auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_3gen_L {
+	border: none;
+	display: block;
+	max-width: 70%;
+	margin: 0 auto 1em auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_4gen_L {
+	border: none;
+	display: block;
+	max-width: 80%;
+	margin: 0 auto 1em auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.stamportrett_S {
+	float: right;
+	border: none;
+	display: block;
+	max-width: 20%;
+	margin: auto;
+	max-height: 100px;
+	page-break-inside: avoid;
+}
+
+img.stamportrett_M {
+	border: none;
+	display: block;
+	max-width: 25%;
+	margin: auto;
+	max-height: 150px;
+	page-break-inside: avoid;
+}
+
+img.stamportrett_L {
+	border: none;
+	display: block;
+	max-width: 30%;
+	margin: auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.arrow {
+	display: none;
+	border: none;
+	height: 22px;
+	width: 19px;
+}
+
+img.genarrow {
+	display: none;
+	border: 0;
+	height: 12px;
+	width: 12px;
+}
+
+img.nextgenicon {
+	display: none;
+	border: none;
+}
+
+img.needle {
+	border: none;
+	height: 20px;
+	width:  20px;
+}
+
+img.info {
+	border: none;
+	height: 20px;
+	width:  20px;
+}
+
+td.nextgen {
+	display: none;
+	border: none;
+	width: 3%;
+}
+
+div.bildserie {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.GMap {
+	width: 96%;
+	height: 600px;
+	display: block;
+	margin: 15px auto 15px auto;
+	page-break-inside: avoid;
+}
+
+/*.HBMap {
+	width: 50%;
+	height: 300px;
+	display: block;
+	margin: 15px auto 15px auto;
+	page-break-inside: avoid;
+}*/
+
+img.ortportrett {
+	border: none;
+	display: block;
+	max-width: 50%;
+	max-height: 300px;
+	margin: 15px auto 20px auto;
+	page-break-inside: avoid;
+}
+
+img.overlaypic {
+	max-width: 96%;
+	border: none;
+	display: block;
+	margin: 15px auto 15px auto;
+	page-break-inside: avoid;
+}
+
+img.lan {
+	border: 0;
+	width: 400px;
+	margin: 0 auto 0 auto;
+}
+
+.ortstext{
+	max-width: 96%;
+	margin: 10px auto 20px auto;
+	font-size: 100%;
+}
+
+.FaktaTBL {
+	border: none;
+	border-spacing: 10px;
+	width: 90%;
+	margin-left: 2%;
+	text-align: left;
+	background-color: #fff;
+}
+
+.FaktaTR {
+	border-style: none;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.FaktaRubrik {
+	border-style: none;
+	border-collapse: collapse;
+	text-align: left;
+	width: 20%;
+}
+
+.FaktaVarde {
+	border-style: none;
+	border-collapse: collapse;
+	text-align: left;
+	width: 70%;
+}
+
+.linktext {
+	margin-left: 2%; 
+}
+
+figure.notis {
+	float: left;
+	margin: 1em 20px 1em 0;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: left;
+	word-break: break-word;
+}
+
+H4 {
+	margin-bottom: 3px;
+}
+
+.video {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin: 10px 0 5px 0;
+	font-size: 100%;
+}
+
+.audio {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin: 0 0 5px 0;
+	font-size: 100%;
+}
+
+.videotext, .audiotext {
+	max-width: 50%;
+	margin: 0 auto 1em auto;
+	font-size: 90%;
+	font-style: italic;
+	text-align: left;
+}
+
+table.statistik, tr.statistik, td.statistik, th.statistik {
+	max-width: 96%;
+	margin: 1em 0 1em 1em;
+	border: 1px solid black;
+	font-size: 110%;
+	padding: 6px;
+}
+
+img.statistik {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	font-size: 100%;
+}
+
+p.statistik {
+	text-align: center;
+	font-size: 80%;
+	font-variant: normal;
+	font-style: normal;
+	font-weight: normal;
+	color: black;
+	margin-bottom: 20px;
+}
+
+td.lansbokst {
+	width: 40px;
+	height: 15px;
+}
+
+td.lansnamn {
+	width: 280px;
+	height: 15px;
+}
+
+td.lanskarta {
+	width: 125px;
+}
+
+.nav {
+	display: none;
+}
+
+.nav li {
+	display: none;
+}

@@ -1,0 +1,4 @@
+[autorun]
+shellexecute=index.htm
+icon=favicon.ico
+Label=[DGText(Genealogy)]

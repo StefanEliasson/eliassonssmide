@@ -1,0 +1,706 @@
+/* CSS file print.css for Disgen10, issuedate=191017 */
+
+@page {
+	width: 210mm;
+	height:297mm;
+}
+
+body, body.index {
+	margin-left: 50px;
+	font-size: 100%;
+	font-variant: normal;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+	background-position: 0% 0%;
+	background-attachment: fixed;
+}
+
+body.ort {
+	width: 96%;
+	max-height: 100%;
+	margin-left: 50px;
+}
+
+li.fotnot, ol.fotnot {
+	font-size: 85%;
+	font-weight: normal;
+	text-align: left;
+}
+
+li.fotnot, ol.fotnot, li.kella, ol.kella {
+	font-size: 85%;
+	font-weight: normal;
+	text-align: left;
+}
+
+.kellanr {
+	font-size: 0.83em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+.fotnotnr {
+	font-size: 0.83em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+.register {
+	display: none;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 110%;
+	font-weight: normal;
+	color: black;
+	margin-top: 1ex;
+	line-height: 120%;
+	border-top: 1px solid #305059;
+	border-bottom: 1px solid #305059;
+	line-height: 180%;
+}
+
+.sidfot {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 80%;
+	font-style: italic;
+}
+
+td.bildtext {
+	color: #000000;
+	text-align: center;
+	font-style: italic;
+	width: inherit;
+	border: none;
+}
+
+Table, TH, TD, TR {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.tablestam0 {
+	width: 98%;
+	border: 1px solid black;
+	border-collapse: collapse;
+ 	text-align: left;
+	padding: 10px;
+}
+
+.tablestam {
+	width: 98%;
+	border: 1px solid black;
+	border-top: none;
+	border-collapse: collapse;
+ 	text-align: left;
+	padding: 10px;
+}
+
+.tablestam1 {
+	width: 3%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-top: none;
+	text-align: center;
+	font-weight: Bold;
+}
+
+.tablestam2 {
+	width: auto;
+	border: 1px solid black;
+	border-top: none;
+	border-collapse: collapse;
+ 	text-align: left;
+	padding: 10px;
+}
+
+.tablestam_forts {
+	display: none;
+	width: 3%;
+	border: none;
+}
+
+.antavleforts {
+	width: 3%;
+	border: none;
+}
+
+.maintable {
+	width: 96%;
+}
+
+.table4gen {
+	width: 22%;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.table4sgen {
+	width: 19%;
+	text-align: left;
+	padding: 10px;
+	font-size: 85%;
+}
+
+.table3gen {
+	text-align: left;
+	width: 25%;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.table3sgen {
+	text-align: left;
+	width: 25%;
+	padding: 10px;
+	font-size: 90%;
+}
+
+.table2gen {
+	width: 33%;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.table2sgen {
+	width: 33%;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+}
+
+.table1gen {
+	width: 50%;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.antavleheading4gen {
+	width: 21%;
+}
+
+.antavleheading4sgen {
+	width: 18%;
+}
+ 
+.antavleheading3gen {
+	width: 25%;
+}
+
+.antavleheading3sgen {
+	width: 25%;
+}
+ 
+.antavleheading2gen {
+	width: 33%;
+}
+
+.antavleheading2sgen {
+	width: 33%;
+}
+
+.antavletable4gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.antavletable4sgen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+}
+
+.antavletable3gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.antavletable3sgen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+}
+
+.antavletable2gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+
+.antavletable2sgen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 90%;
+}
+
+.antavletable1gen {
+	width: inherit;
+	text-align: left;
+	padding: 10px;
+	font-size: 100%;
+}
+ 	
+.NBTBL {
+	margin-left:auto; 
+	margin-right:auto;
+	width: 96%;
+	border: none;
+	text-align: left;
+}
+
+.NBTBLbild {
+	margin-left:auto; 
+	margin-right:auto;
+	border: none;
+}
+
+.GiftTBL {
+	border: none;
+	text-align: left;
+	width: 96%;
+}
+
+.GiftTD ,.GiftTR {
+	border: none;
+	text-align: left;
+}
+
+.Giftportrett {
+	margin-left: auto; 
+	margin-right: auto;
+	border: none;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+h2 {
+	font-size: 150%;
+	font-weight: Normal;
+	color: black;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+h3 {
+	font-size: 120%;
+	font-weight: Bold;
+	color: black;
+	text-align: left;
+	margin: 20px 0 10px 0;
+	width: 100%;
+}
+
+h3.Cent {
+	font-size: 120%;
+	font-weight: Normal;
+	color: black;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+p.kella {
+	font-size: 90%;
+	font-weight: Normal;
+	color: black;
+	text-align: left;
+	margin: 0;
+	width: 100%;
+	border-top: 1px solid #305059;
+	padding-top: 8px;
+}
+
+p.fotnot {
+	font-size: 90%;
+	font-weight: Normal;
+	color: black;
+	text-align: left;
+	margin: 0;
+	width: 100%;
+	border-top: 1px solid #305059;
+	padding-top: 8px;
+}
+
+p.indexlista {
+	display: none;
+	font-weight: bold;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #006666; 
+	padding: 10px 4% 10px 4%;
+	margin: 0;
+	width: 100%;
+}
+
+p.indexlista A:link {color: #FFFFFF; text-decoration: none; font-weight: bold;}
+
+.namnlista A:link {color: black; text-decoration: none; font-weight: bold;} 
+
+.efternamn A:link {color: black; text-decoration: none;} 
+
+.register A:link {color: black; text-decoration: none;} 
+
+p.indexlista_f {
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	background-color: #F1F1F1; 
+	padding: 10px 2% 10px 2%;
+	margin: 0;
+	width: 100%;}
+
+.small A:link {color: black; text-decoration: none; font-weight: bold;} 
+
+.tilltal {
+	font-weight: Bold;	
+}
+
+.ejtilltal {
+	font-weight: Normal;
+}
+
+.efternamn {
+	font-weight: Bold;
+}
+
+.efternamnindr {
+	font-weight: Bold;
+	margin-left: 20px;
+}
+
+.small {
+	font-size: 85%;
+}
+
+.h1normal {
+	font-weight: normal;
+}
+
+.h2ort {
+	font-weight: Bold;
+	margin: 15px 0 0 0;
+}
+
+.barn {
+	margin-top: 15px;
+	margin-bottom: 0;
+	padding-left: 4%;
+	font-weight: normal;
+}
+
+.ffmm {
+	text-transform: lowercase;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.kortrelation {
+	text-transform: uppercase;
+}
+
+img.startbild {
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	page-break-inside: avoid;
+}
+
+img.portrett {
+	border: none;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_1gen_S {
+	border: none;
+	display: block;
+	max-width: 30%;
+	margin:auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_2gen_S {
+	border: none;
+	display: block;
+	max-width: 40%;
+	margin:auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_3gen_S {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin:auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_4gen_S {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin:auto;
+	max-height: 200px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_1gen_M {
+	border: none;
+	display: block;
+	max-width: 40%;
+	margin:auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_2gen_M {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin:auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_3gen_M {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin:auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_4gen_M {
+	border: none;
+	display: block;
+	max-width: 70%;
+	margin:auto;
+	max-height: 250px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_1gen_L {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin:auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_2gen_L {
+	border: none;
+	display: block;
+	max-width: 60%;
+	margin:auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_3gen_L {
+	border: none;
+	display: block;
+	max-width: 70%;
+	margin:auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.litetportrett_4gen_L {
+	border: none;
+	display: block;
+	max-width: 80%;
+	margin:auto;
+	max-height: 300px;
+	page-break-inside: avoid;
+}
+
+img.ikon {
+	display: none;
+	border: 0;
+	WIDTH: 20px; 
+	HEIGHT: 15px;
+}
+	
+img.arrow {
+	display: none;
+	border: 0;
+	HEIGHT: 22px;
+	WIDTH: 19px;
+}
+
+img.genarrow {
+	display: none;
+	border: 0;
+	HEIGHT: 12px;
+	WIDTH: 12px;
+}
+
+img.nextarrow {
+	display: none;
+	border: 0;
+	HEIGHT: 22px;
+	WIDTH: 19px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.nextgenicon {
+	display: none;
+	border: none;
+}
+
+td.nextgen {
+	border: none;
+	width: 3%;
+}
+
+.GMap {
+	width: 96%;
+	height: 600px;
+	display: block;
+	margin: 15px auto 15px auto;
+	page-break-inside: avoid;
+}
+	
+img.placepic {
+	border: none;
+	display: block;
+	max-width: 50%;
+	max-height: 300px;
+	margin: 15px auto 20px auto;
+	page-break-inside: avoid;
+}
+
+.ortstext{
+	max-width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-size: 100%;
+}
+
+.FaktaTBL {
+	border-style: none;
+	border-spacing: 10px;
+	width: 90%;
+	margin-left: 2%;
+	text-align: left;
+	font-size: 100%;
+}
+
+.FaktaTR {
+	border-style: none;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.FaktaRubrik {
+	border-style: none;
+	border-collapse: collapse;
+	text-align: left;
+	width: 20%;
+}
+
+.FaktaVarde {
+	border-style: none;
+	border-collapse: collapse;
+	text-align: left;
+	width: 70%;
+}
+
+.linktext {
+	margin-left: 2%; 
+}
+
+H4 {
+	margin-bottom: 3px;
+}
+
+.video {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	font-size: 100%;
+}
+
+.audio {
+	border: none;
+	display: block;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	font-size: 100%;
+}
+
+.videotext, .audiotext {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	font-size: 90%;
+	font-style: italic;
+	text-align: center;
+}
+
+table.statistik, tr.statistik, td.statistik, th.statistik {
+	max-width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	font-size: 110%;
+	padding: 6px;
+}
+
+img.statistik {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	font-size: 100%;
+	page-break-inside: avoid;
+}
+
+p.statistik {
+	text-align: center;
+	font-size: 80%;
+	font-variant: normal;
+	font-style: normal;
+	font-weight: normal;
+	color: black;
+	margin-bottom: 20px;
+}

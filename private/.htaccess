@@ -1,0 +1,4 @@
+AuthUserFile /customers/1/e/5/eliassonssmide.se/httpd.www/private/.htpasswd_protect
+AuthType Basic
+AuthName "Login"
+Require valid-user
