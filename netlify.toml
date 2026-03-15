@@ -8,7 +8,4 @@
   for = "/disgen/*"
   [headers.values]
     WWW-Authenticate = "Basic realm=\"Privat släktforskning\""
-
-[context.production]
-  [context.production.basic_auth]
-    "/disgen/*" = "stefan:eliasson1964"
+    Basic-Auth = "stefan:eliasson1964"
