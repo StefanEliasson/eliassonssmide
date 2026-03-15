@@ -1,9 +1,18 @@
+# 1. Trigger Basic Auth
+[[redirects]]
+  from = "/disgen/*"
+  to = "/"
+  status = 401
+  force = true
+
+# 2. Efter inloggning: stanna i rätt katalog
 [[redirects]]
   from = "/disgen/*"
   to = "/disgen/:splat"
   status = 200
   force = true
 
+# 3. Basic Auth headers
 [[headers]]
   for = "/disgen/*"
   [headers.values]
